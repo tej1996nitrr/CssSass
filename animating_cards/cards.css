@@ -41,4 +41,14 @@ body{
     border-radius: 16px;
     background: #20252C;
     box-shadow: -1rem 0 3rem #000000;
+    transition: .2s;
+}
+.card:hover{
+    translate: translateY(-1rem);
+}
+.card:hover~.card{
+    translate: translateX(130px);
+}
+.card:not(:first-child) {
+    margin-left: -130px;
 }
