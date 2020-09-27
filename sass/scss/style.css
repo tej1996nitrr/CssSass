@@ -1,0 +1,16 @@
+.rule {
+  color: coral;
+}
+
+.rule a {
+  color: greenyellow;
+}
+
+.rule a span {
+  color: palevioletred;
+}
+
+.rule a h1 {
+  color: crimson;
+}
+/*# sourceMappingURL=style.css.map */
